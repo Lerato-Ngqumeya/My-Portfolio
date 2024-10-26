@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <style>
+      body {
+        font-family: Poppins, sans-serif;
+        background: #081b29;
+        margin: 0;
+        padding: 0;
+      }
+
+      .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 10%;
+        background: yellowgreen;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+      }
+
+      .navbar a {
+        font-size: 18px;
+        color: #ededed;
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 35px;
+        transition: 0.3s;
+      }
+
+      .navbar a:hover {
+        color: #00abf0;
+      }
+
+      .home {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10%;
+        height: 100vh;
+        position: relative;
+      }
+
+      .home-content {
+        max-width: 600px;
+        z-index: 10;
+        flex: 1;
+      }
+
+      .home-content h1 {
+        font-size: 56px;
+        font-weight: 700;
+        color: #fff;
+      }
+
+      .home-content h3 {
+        font-size: 32px;
+        font-weight: 700;
+        color: #00abf0;
+      }
+
+      .home-content p {
+        font-size: 16px;
+        color: #ededed;
+        line-height: 1.6;
+      }
+
+      .btn-box a {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 40px;
+        background: #00abf0;
+        border: 2px solid #00abf0;
+        border-radius: 5px;
+        font-size: 14px;
+        color: #081b29;
+        text-decoration: none;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-top: 20px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+
+      .btn-box a:hover {
+        background-color: #081b29;
+        color: #00abf0;
+        border: 2px solid #00abf0;
+      }
+
+      .profile-photo {
+        max-width: 400px;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-left: 30px;
+        flex-shrink: 0;
+      }
+
+      .home {
+        display: flex;
+        align-items: flex-start;
+      }
+
+      .home-content p a {
+        color: #00abf0;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Lerato</a>
+      <nav class="navbar">
+        <a href="Potfolio2.html">Home</a>
+        <a href="qualifications.html">Qualifications</a>
+        <a href="https://github.com/Lerato-Ngqumeya">Experience</a>
+        <a href="contact.html">Contact Details</a>
+      </nav>
+    </header>
+
+    <section class="home">
+      <div class="home-content">
+        <h1>Hi, I am Lerato Ngqumeya</h1>
+        <h3>Junior Front-end Developer</h3>
+        <p>
+          As an energetic and passionate engineering graduate with a National
+          Diploma in Electrical Engineering, I have developed a strong interest
+          in the tech industry. After completing my first SheCodes Basics
+          Bootcamp and nearly finishing my second certificate in advanced
+          front-end development, I’m eager to explore new opportunities and
+          continue building my skill set in web development. I’m particularly
+          drawn to front-end design and emerging tech trends. I believe my
+          engineering background helps me approach challenges creatively and
+          technically, and I’m excited to contribute to innovative projects.
+        </p>
+        <div class="btn-box">
+          <a href="contact.html">Contact Me</a>
+        </div>
+      </div>
+
+      <img src="Headshot.jpg" alt="Lerato Ngqumeya" class="profile-photo" />
+    </section>
+  </body>
+</html>
